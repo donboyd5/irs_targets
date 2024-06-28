@@ -1,0 +1,13 @@
+/.quarto/
+
+# folders
+_book/
+_freeze/
+data/IRS_spreadsheets/
+
+# file types
+*.rds
+
+# files
+.Rhistory
+.Rproj.user
