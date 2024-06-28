@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 99d142c0-b630-42a8-93b8-3b6b546c0cb8
+      url: 'https://boyd-irs-targets.netlify.app'
