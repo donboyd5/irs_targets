@@ -8,14 +8,25 @@ execute:
   freeze: auto  # auto: during global project renders, re-render only when source changes
 
 book:
-  title: "Get IRS data for possible use as PUF targets"
+  title: "Get IRS data for PUF targeting"
   subtitle: "Create csv file"
   author: "Don Boyd"
   date: today
   date-format: long
   chapters:
     - index.qmd
-    - prepare.qmd
+    part: "IRS national data"
+    chapters:
+      - prepare_national.qmd
+    part: "IRS state data"
+    chapters:
+      - prepare_state.qmd
+    part: "IRS county data"
+    chapters:
+      - prepare_county.qmd
+    part: "IRS Congressional District data"
+    chapters:
+      - prepare_cd.qmd
 
 format:
   html:

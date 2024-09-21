@@ -5,9 +5,21 @@ _book/
 _freeze/
 data/IRS_spreadsheets/
 
+
 # file types
+~*.docx
+~*.xls*
+*.csv
 *.rds
+*.xls*
+*.zip
+
 
 # files
 .Rhistory
 .Rproj.user
+
+
+# Unignore specific .xlsx files by name
+!data/congressional_districts/21incdny.xlsx
+!folder/file2.xlsx
